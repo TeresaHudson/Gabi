@@ -1,6 +1,22 @@
 /*--------------------------------------------------------------
 # COLORS
 --------------------------------------------------------------*/
+$font-main: "Josefin Sans", sans-serif;
+
+$color-text-main: #333333;
+$color-accent-main: #21697F;
+$color-accent-light: #f0f4f8;
+
+$color-border: #E1E1E1;
+
+$color-black: #000000;
+$color-white: #FFFFFF;
+
+
+
+/*--------------------------------------------------------------
+# COLORS (OLD)
+--------------------------------------------------------------*/
 
 $color__background-body: #fff;
 $color__background-screen: #f1f1f1;
@@ -24,7 +40,7 @@ $color__border-input: #ccc;
 $color__border-abbr: #666;
 
 /*--------------------------------------------------------------
-# TYPOGRAPHY
+# TYPOGRAPHY (OLD)
 --------------------------------------------------------------*/
 
 $font__main: sans-serif;
@@ -34,7 +50,7 @@ $font__line-height-body: 1.5;
 $font__line-height-pre: 1.6;
 
 /*--------------------------------------------------------------
-# STRUCTURE
+# STRUCTURE (OLD)
 --------------------------------------------------------------*/
 
 $size__site-main: 100%;
