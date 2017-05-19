@@ -64,6 +64,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # PAGES
 --------------------------------------------------------------*/
 @import "pages/home";
+@import "pages/header";
 
 
 /*--------------------------------------------------------------
@@ -77,6 +78,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "theme/buttons";
 @import "theme/navigation";
 @import "theme/widgets";
+@import "theme/global";
 
 // @import "theme/site";
 @import "theme/posts-and-pages";

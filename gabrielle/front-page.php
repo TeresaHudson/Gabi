@@ -18,20 +18,20 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 
-			<div class="main-img-wrap">
+			<div class="section main-img-wrap">
 				<div class="row">
 					<div class="small-12 medium-expand columns">
-						Nothing Goes in Here. 
+
 					</div>
 					<div class="small-12 medium-expand columns">
-						<h2>Title</h2>
+						<h2>A <strong>Holistic</strong> Approach to Personal <strong>Training</strong></h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare hendrerit ipsum, finibus aliquam tortor faucibus et. Etiam vitae iaculis quam. Nulla ut ullamcorper lorem, facilisis tempus metus. Cras maximus leo quis lacinia molestie. Praesent malesuada ligula vitae elit sodales fermentum.</p>
-						<a>Call to action</a>
+						<a><div class="button">Call to action</div></a>
 					</div>
 				</div>
 			</div>
 
-			<div class="testimonials-wrap">
+			<div class="section testimonials-wrap">
 				<div class="row">
 
 					<div class="small-12">
@@ -133,7 +133,7 @@ get_header(); ?>
 				</div>
 			</div>
 
-			<div class="programs-wrap" style="background: gray">
+			<div class="section programs-wrap" style="background: gray">
 				<div class="row">
 					<h2 class="small-12 columns">Programs</h2>
 					<div class="small-12 medium-expand columns">
@@ -151,7 +151,7 @@ get_header(); ?>
 				</div>
 			</div>
 
-			<div class="articles-wrap" style="background: purple">
+			<div class="section articles-wrap" style="background: purple">
 				<div class="row">
 					<h2 class="small-12 columns">Articles</h2>
 					<div class="small-12 medium-expand columns">

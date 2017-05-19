@@ -3,7 +3,33 @@
 --------------------------------------------------------------*/
 
 .main-img-wrap {
-	background: #c1e8ec;
+	background: url('images/main-header.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+.main-img-wrap h2 {
+	@include font-size(3);
+	color: $color-white;
+	line-height: 1;
+	margin-top: 0;
+}
+
+.main-img-wrap p {
+	@include font-size(1.5);
+	color: $color-white;
+}
+
+.main-img-wrap .button {
+	color: $color-white;
+	border: solid 1px $color-white;
+	@include font-size(1.5);
+}
+
+.main-img-wrap .button:hover {
+	color: $color-white;
+	border: solid 1px $color-accent-main;
+	background: $color-accent-main;
 }
 
 .testimonials-wrap {

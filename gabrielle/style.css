@@ -914,7 +914,7 @@ button {
 }
 
 .row {
-  max-width: 62.5rem;
+  max-width: 75rem;
   margin-right: auto;
   margin-left: auto;
   display: -ms-flexbox;
@@ -2920,11 +2920,44 @@ button {
 # HOMEPAGE
 --------------------------------------------------------------*/
 .main-img-wrap {
-  background: #c1e8ec;
+  background: url("images/main-header.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.main-img-wrap h2 {
+  font-size: 48px;
+  font-size: 3rem;
+  color: #FFFFFF;
+  line-height: 1;
+  margin-top: 0;
+}
+
+.main-img-wrap p {
+  font-size: 24px;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+
+.main-img-wrap .button {
+  color: #FFFFFF;
+  border: solid 1px #FFFFFF;
+  font-size: 24px;
+  font-size: 1.5rem;
+}
+
+.main-img-wrap .button:hover {
+  color: #FFFFFF;
+  border: solid 1px #21697F;
+  background: #21697F;
 }
 
 .testimonials-wrap {
   padding: 100px 10px;
+}
+
+.site-branding {
+  padding: 15px 0;
 }
 
 /*--------------------------------------------------------------
@@ -2948,6 +2981,10 @@ textarea {
 h1, h2, h3, h4, h5, h6 {
   clear: both;
   color: #21697F;
+}
+
+h2 {
+  font-weight: normal;
 }
 
 /*--------------------------------------------------------------
@@ -3155,38 +3192,21 @@ textarea {
   width: 100%;
 }
 
-button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  border: 1px solid;
-  border-color: #ccc #ccc #bbb;
-  border-radius: 3px;
-  background: #e6e6e6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-  color: rgba(0, 0, 0, 0.8);
-  font-size: 12px;
-  font-size: 0.75rem;
-  line-height: 1;
-  padding: .6em 1em .4em;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: solid 1px #21697F;
+  color: #21697F;
+  background: transparent;
+  cursor: pointer;
+  transition: .2s;
 }
-button:hover,
-input[type="button"]:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover {
-  border-color: #ccc #bbb #aaa;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
-}
-button:active, button:focus,
-input[type="button"]:active,
-input[type="button"]:focus,
-input[type="reset"]:active,
-input[type="reset"]:focus,
-input[type="submit"]:active,
-input[type="submit"]:focus {
-  border-color: #aaa #bbb #bbb;
-  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
+
+.button:hover {
+  text-decoration: none;
+  color: #21697F;
+  background: transparent;
+  opacity: .7;
 }
 
 /*--------------------------------------------------------------
@@ -3295,6 +3315,10 @@ a:hover, a:active {
 }
 .widget select {
   max-width: 100%;
+}
+
+.section {
+  padding: 70px 10px;
 }
 
 .sticky {
