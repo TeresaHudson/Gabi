@@ -2960,6 +2960,45 @@ button {
   padding: 15px 0;
 }
 
+#fatfooter {
+  background: #7ba5b2;
+  padding: 3rem 0 1.5rem 0;
+}
+
+#fatfooter h2 {
+  line-height: 1.5;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#fatfooter .menu {
+  margin-left: 0px;
+  padding-left: 0px;
+  list-style: none;
+}
+
+#fatfooter .menu > li {
+  margin-left: 0;
+  padding-left: 0px;
+}
+
+#fatfooter .menu > li > a {
+  color: #FFFFFF;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+#colophon {
+  background: #21697f;
+  padding: 15px 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+#colophon .row {
+  text-align: center;
+}
+
 /*--------------------------------------------------------------
 # THEME
 --------------------------------------------------------------*/
@@ -3036,6 +3075,20 @@ mark, ins {
 
 big {
   font-size: 125%;
+}
+
+/*--------------------------------------------------------------
+# DARK BACKGROUNDS
+--------------------------------------------------------------*/
+.dark-background p,
+.dark-background h1,
+.dark-background h2,
+.dark-background h3,
+.dark-background h4,
+.dark-background h5,
+.dark-background h6,
+.dark-background .textwidget {
+  color: #FFFFFF;
 }
 
 html {

@@ -1,0 +1,39 @@
+#fatfooter {
+	background: #7ba5b2;
+	padding: 3rem 0 1.5rem 0;
+}
+
+#fatfooter h2 {
+	line-height: 1.5;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+#fatfooter .menu {
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style: none;
+}
+
+#fatfooter .menu > li {
+	margin-left: 0;
+	padding-left: 0px;
+}
+
+#fatfooter .menu > li > a {
+	color: $color-white;
+	text-decoration: none;
+	line-height: 1.5;
+} 
+
+#colophon {
+	background: #21697f;
+	padding: 15px 0;
+	text-align: center;
+	color: #ffffff;
+}
+
+#colophon .row {
+	text-align: center;
+}

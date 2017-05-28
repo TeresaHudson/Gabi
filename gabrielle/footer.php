@@ -13,11 +13,47 @@
 
 	</div><!-- #content -->
 
+	<section id="fatfooter">
+		<div class="row">
+			<div class="small-12 medium-expand columns">
+				
+				<?php if ( is_active_sidebar( 'fatfooter-1' ) ) : ?>
+				    <div id="secondary" class="widget-area dark-background" role="complementary">
+				    <?php dynamic_sidebar( 'fatfooter-1' ); ?>
+				    </div>
+				<?php endif; ?>
+
+			</div>
+			<div class="small-12 medium-expand columns">
+				<?php if ( is_active_sidebar( 'fatfooter-2' ) ) : ?>
+				    <div id="secondary" class="widget-area dark-background" role="complementary">
+				    <?php dynamic_sidebar( 'fatfooter-2' ); ?>
+				    </div>
+				<?php endif; ?>
+			</div>
+			<div class="small-12 medium-expand columns">
+				<?php if ( is_active_sidebar( 'fatfooter-3' ) ) : ?>
+				    <div id="secondary" class="widget-area dark-background" role="complementary">
+				    <?php dynamic_sidebar( 'fatfooter-3' ); ?>
+				    </div>
+				<?php endif; ?>
+			</div>
+			<div class="small-12 medium-expand columns">
+				<?php if ( is_active_sidebar( 'fatfooter-4' ) ) : ?>
+				    <div id="secondary" class="widget-area dark-background" role="complementary">
+				    <?php dynamic_sidebar( 'fatfooter-4' ); ?>
+				    </div>
+				<?php endif; ?>
+			</div>
+		</div>
+
+	</section>
+
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info row">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'gabrielle' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'gabrielle' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'gabrielle' ), 'gabrielle', '<a href="http://www.teresahudson.me" rel="designer">Teresa Hudson</a>' ); ?>
+		<div class="row">
+			<div class="small-12 medium-expand columns">
+				Copyright &copy; <?php echo date("Y"); ?> Healthy Body Works. All rights reserved.
+			</div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

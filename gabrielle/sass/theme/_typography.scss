@@ -32,7 +32,7 @@ p {
 dfn, cite, em, i {
 	font-style: italic;
 }
-
+ 
 blockquote {
 	margin: 0 1.5em;
 }
@@ -69,4 +69,19 @@ mark, ins {
 
 big {
 	font-size: 125%;
+}
+
+/*--------------------------------------------------------------
+# DARK BACKGROUNDS
+--------------------------------------------------------------*/
+
+.dark-background p,
+.dark-background h1,
+.dark-background h2,
+.dark-background h3,
+.dark-background h4,
+.dark-background h5,
+.dark-background h6,
+.dark-background .textwidget {
+	color: $color-white;
 }

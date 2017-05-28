@@ -87,8 +87,48 @@ add_action( 'after_setup_theme', 'gabrielle_content_width', 0 );
  */
 function gabrielle_widgets_init() {
 	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'gabrielle' ),
+		'name'          => esc_html__( 'Main Sidebar', 'gabrielle' ),
 		'id'            => 'sidebar-1',
+		'description'   => esc_html__( 'Add widgets here.', 'gabrielle' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+
+	register_sidebar( array(
+		'name'          => esc_html__( 'FatFooter Column 1', 'gabrielle' ),
+		'id'            => 'fatfooter-1',
+		'description'   => esc_html__( 'Add widgets here.', 'gabrielle' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+
+	register_sidebar( array(
+		'name'          => esc_html__( 'FatFooter Column 2', 'gabrielle' ),
+		'id'            => 'fatfooter-2',
+		'description'   => esc_html__( 'Add widgets here.', 'gabrielle' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+
+	register_sidebar( array(
+		'name'          => esc_html__( 'FatFooter Column 3', 'gabrielle' ),
+		'id'            => 'fatfooter-3',
+		'description'   => esc_html__( 'Add widgets here.', 'gabrielle' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+
+	register_sidebar( array(
+		'name'          => esc_html__( 'FatFooter Column 4', 'gabrielle' ),
+		'id'            => 'fatfooter-4',
 		'description'   => esc_html__( 'Add widgets here.', 'gabrielle' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
@@ -104,7 +144,7 @@ add_action( 'widgets_init', 'gabrielle_widgets_init' );
 function gabrielle_scripts() {
 	
 
-	wp_enqueue_style( 'gabrielle-style-min', get_stylesheet_uri().'/style.css.min' );
+	wp_enqueue_style( 'gabrielle-style-min', get_stylesheet_uri().'/style.css' );
 
 	wp_enqueue_script( 'gabrielle-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
