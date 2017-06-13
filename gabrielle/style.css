@@ -3000,6 +3000,40 @@ button {
 }
 
 /*--------------------------------------------------------------
+# ABOUT ME PAGE
+--------------------------------------------------------------*/
+.about-header {
+  background-size: cover;
+  background-position: center center;
+}
+.about-header .about-header-text {
+  color: #FFFFFF;
+  font-size: 90px;
+  text-align: right;
+  padding: 75px 0;
+}
+
+.about-section-1 h2 {
+  text-align: center;
+}
+
+.about-section-2 {
+  background-size: cover;
+  background-position: center center;
+}
+.about-section-2 h2 {
+  text-align: center;
+  color: #FFFFFF;
+}
+.about-section-2 p {
+  color: #FFFFFF;
+}
+
+.about-section-3 h2 {
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
 # THEME
 --------------------------------------------------------------*/
 body,

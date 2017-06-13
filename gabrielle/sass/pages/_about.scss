@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------
+# ABOUT ME PAGE
+--------------------------------------------------------------*/
+
+.about-header {
+	background-size: cover;
+	background-position: center center;
+
+	.about-header-text {
+		color: $color-white;
+		font-size: 90px;
+		text-align: right;
+		padding: 75px 0;
+	}
+}
+
+.about-section-1 {
+	h2 {
+		text-align: center;
+	}
+}
+
+.about-section-2 {
+	background-size: cover;
+	background-position: center center;
+
+	h2 {
+		text-align: center;
+		color: $color-white;
+	}
+
+	p {
+		color: $color-white;
+	}
+}
+
+.about-section-3 {
+	h2 {
+		text-align: center;
+	}
+}
