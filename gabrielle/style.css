@@ -3325,9 +3325,11 @@ a:hover, a:active {
   width: 100%;
 }
 .main-navigation ul {
-  display: none;
+  display: inline-block;
+  float: right;
   list-style: none;
   margin: 0;
+  padding: 35px 0;
   padding-left: 0;
 }
 .main-navigation ul ul {
@@ -3347,6 +3349,8 @@ a:hover, a:active {
 }
 .main-navigation ul ul a {
   width: 200px;
+  text-transform: uppercase;
+  color: white;
 }
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
@@ -3359,6 +3363,13 @@ a:hover, a:active {
 .main-navigation a {
   display: block;
   text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 30px;
+  color: #21697F;
+  transition: .2s;
+}
+.main-navigation a:hover {
+  color: #b152c6;
 }
 
 /* Small menu. */

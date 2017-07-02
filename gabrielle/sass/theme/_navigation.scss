@@ -31,9 +31,11 @@ a {
 	width: 100%;
 
 	ul {
-		display: none;
+		display: inline-block;
+		float: right;
 		list-style: none;
 		margin: 0;
+		padding: 35px 0;
 		padding-left: 0;
 
 		ul {
@@ -58,6 +60,8 @@ a {
 
 			a {
 				width: 200px;
+				text-transform: uppercase;
+				color: white;
 			}
 
 			:hover > a,
@@ -87,6 +91,14 @@ a {
 	a {
 		display: block;
 		text-decoration: none;
+		text-transform: uppercase;
+		padding-left: 30px;
+		color: $color-accent-main;
+		transition: .2s;
+
+		&:hover {
+			color: $color-accent-secondary;
+		}
 	}
 
 	.current_page_item > a,
