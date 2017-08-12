@@ -1,0 +1,62 @@
+/*--------------------------------------------------------------
+# CONTACT PAGE
+--------------------------------------------------------------*/
+
+.contact-header {
+	background-size: cover;
+	background-position: center center;
+
+	.contact-header-text {
+		
+		text-align: center;
+
+		h2 {
+			color: black;
+			font-size: 48px;
+			margin-top: 0px;
+			padding-top: 0px;
+			margin-bottom: 0px;
+			padding-bottom: 0px;
+		}
+
+		p {
+			display: block;
+			margin: 0 auto;
+			color: black;
+			font-size: 22px;
+			max-width: 815px;
+			line-height: 1.5
+		}
+		
+	}
+}
+
+.contact-section-1 {
+
+	max-width: 480px; 
+	margin: 0 auto;
+
+	.entry-title {
+		display: none;
+	}
+
+	article {
+		width: 100%;
+	}
+
+}
+
+.address {
+	background: $color-accent-main;
+	text-align: center;
+	color: $color-white;
+	padding: 25px;
+
+	h3 {
+		color: $color-white;
+		margin: 0; 
+		padding: 0;
+	}
+
+
+}

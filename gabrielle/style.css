@@ -3034,6 +3034,107 @@ button {
 }
 
 /*--------------------------------------------------------------
+# PROGRAMS PAGE
+--------------------------------------------------------------*/
+.programs-header {
+  background-size: cover;
+  background-position: center center;
+}
+.programs-header .programs-header-text {
+  text-align: center;
+}
+.programs-header .programs-header-text h2 {
+  color: black;
+  font-size: 48px;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 15px;
+  padding-bottom: 0px;
+}
+.programs-header .programs-header-text p {
+  display: block;
+  margin: 0 auto;
+  color: black;
+  font-size: 22px;
+  max-width: 815px;
+  line-height: 1.5;
+}
+
+.programs-section-1 .program-icon {
+  text-align: center;
+}
+.programs-section-1 h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 0px;
+  letter-spacing: 1px;
+}
+.programs-section-1 p {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 280px;
+  margin-bottom: 20px;
+}
+.programs-section-1 .row {
+  margin-bottom: 55px;
+}
+.programs-section-1 .row:last-child {
+  margin-bottom: 0px;
+}
+
+/*--------------------------------------------------------------
+# CONTACT PAGE
+--------------------------------------------------------------*/
+.contact-header {
+  background-size: cover;
+  background-position: center center;
+}
+.contact-header .contact-header-text {
+  text-align: center;
+}
+.contact-header .contact-header-text h2 {
+  color: black;
+  font-size: 48px;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.contact-header .contact-header-text p {
+  display: block;
+  margin: 0 auto;
+  color: black;
+  font-size: 22px;
+  max-width: 815px;
+  line-height: 1.5;
+}
+
+.contact-section-1 {
+  max-width: 480px;
+  margin: 0 auto;
+}
+.contact-section-1 .entry-title {
+  display: none;
+}
+.contact-section-1 article {
+  width: 100%;
+}
+
+.address {
+  background: #21697F;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 25px;
+}
+.address h3 {
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+/*--------------------------------------------------------------
 # THEME
 --------------------------------------------------------------*/
 body,
@@ -3251,6 +3352,7 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 3px;
   padding: 3px;
+  width: 100%;
 }
 input[type="text"]:focus,
 input[type="email"]:focus,
@@ -3417,6 +3519,11 @@ a:hover, a:active {
 
 .section {
   padding: 70px 10px;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
 }
 
 .sticky {

@@ -1,0 +1,64 @@
+/*--------------------------------------------------------------
+# PROGRAMS PAGE
+--------------------------------------------------------------*/
+
+.programs-header {
+	background-size: cover;
+	background-position: center center;
+
+	.programs-header-text {
+		
+		text-align: center;
+
+		h2 {
+			color: black;
+			font-size: 48px;
+			margin-top: 0px;
+			padding-top: 0px;
+			margin-bottom: 15px;
+			padding-bottom: 0px;
+		}
+
+		p {
+			display: block;
+			margin: 0 auto;
+			color: black;
+			font-size: 22px;
+			max-width: 815px;
+			line-height: 1.5
+		}
+		
+	}
+}
+
+.programs-section-1 {
+
+	.program-icon {
+		text-align: center;
+	}
+
+	h3 {
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 300;
+		margin-bottom: 0px;
+		letter-spacing: 1px;
+	}
+
+	p {
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+		max-width: 280px;
+		margin-bottom: 20px;
+	}
+
+	.row {
+		margin-bottom: 55px;
+	}
+
+	.row:last-child {
+		margin-bottom: 0px;
+	}
+
+}
