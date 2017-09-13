@@ -20,6 +20,8 @@
 
 
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTi2Z1jEsB1Fhcj0PpeUlpyIZdAD1uZw4"></script>
+
+<!-- <script type='text/javascript' src='http://www.gabi.dev/wp-content/themes/gabrielle/js/jquery.flexslider.js?ver=1.0.0'></script> -->
         
 <script type="text/javascript">
     // When the window has finished loading create our google map below

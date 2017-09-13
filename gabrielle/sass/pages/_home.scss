@@ -32,9 +32,61 @@
 	background: $color-accent-main;
 }
 
+/*--------------------------------------------------------------
+# TESTIMONIALS
+--------------------------------------------------------------*/
+
 .testimonials-wrap {
 	padding: 100px 10px;
 }
 
 
+/*--------------------------------------------------------------
+# PROGRAMS
+--------------------------------------------------------------*/
 
+.programs-wrap {
+	background: url('images/programs-section-background.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+.programs-wrap h2 {
+	text-align: center;
+}
+
+.programs-wrap .section-description {
+	display: block;
+	text-align: center;
+	max-width: 850px; 
+	color: $color-accent-main;
+	clear: both;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.program-wrap {
+	padding: 20px; 
+	background: url('images/program-background.png');
+	text-align: center;
+}
+
+.program-wrap h3 {
+	text-align: center;
+	color: $color-white;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+
+/*--------------------------------------------------------------
+# ARTICLES
+--------------------------------------------------------------*/
+
+.articles-wrap {
+	
+}
+
+.articles-wrap h2 {
+	text-align: center;
+}

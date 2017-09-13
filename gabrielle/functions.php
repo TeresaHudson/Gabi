@@ -154,11 +154,51 @@ function gabrielle_scripts() {
 
 	wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,600,700', false );
 
+	wp_enqueue_script( 'flexslider', get_stylesheet_directory_uri() . '/js/jquery.flexslider.js', array('jquery'), '1.0.0', true );
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+
+	
+
 }
 add_action( 'wp_enqueue_scripts', 'gabrielle_scripts' );
+
+
+/** FLEXSLIDER **/
+ 
+add_action( 'wp_footer', 'print_my_script' );
+ 
+function print_my_script() {
+
+	if ( is_front_page() ) {
+
+  	echo "<script src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
+  	<script defer src='" . get_stylesheet_directory_uri() . "/js/jquery.flexslider.js'></script>
+
+	  <script type='text/javascript'>
+	    $(window).load(function(){
+
+
+
+			 	$('#flex-testimonials').flexslider({
+				    animation: 'slide',
+				    namespace: 'flex-testimonials'
+				
+				});
+
+	     		$('#flex-posts').flexslider({
+				    animation: 'slide',
+					namespace: 'flex-posts'
+				});
+
+	    });
+	  </script>";
+	} else {
+		return;
+	}
+}
 
 
 /** Add options page for home page **/

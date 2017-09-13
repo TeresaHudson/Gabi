@@ -6,6 +6,7 @@
 	background: transparent;
 	cursor: pointer;
 	transition: .2s;
+	text-decoration: none;
 }
 
 .button:hover {
@@ -13,4 +14,9 @@
 	color: $color-accent-main;
 	background: transparent;
 	opacity: .7;
+}
+
+.button.white {
+	color: $color-white;
+	border: solid 1px $color-white;
 }

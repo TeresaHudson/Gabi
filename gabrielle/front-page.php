@@ -32,139 +32,119 @@ get_header(); ?>
 			</div>
 
 			<div class="section testimonials-wrap">
-				<div class="row">
+				<div class="slider">
+					<div id="flex-testimonials">
+					  	<ul class="slides">
 
-					<div class="small-12">
-						<h1>Header H1 is Fantastic.</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare hendrerit ipsum, finibus aliquam tortor faucibus et. Etiam vitae iaculis quam. Nulla ut ullamcorper lorem, facilisis tempus metus. Cras maximus leo quis lacinia molestie. Praesent malesuada ligula vitae elit sodales fermentum.</p>
+					  		<li>
+					  			<div class="row">						
+									<div class="small-12 medium-8 columns">
+										<h2>Testimonial 1</h2>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare hendrerit ipsum, finibus aliquam tortor faucibus et. Etiam vitae iaculis quam. Nulla ut ullamcorper lorem, facilisis tempus metus. Cras maximus leo quis lacinia molestie. Praesent malesuada ligula vitae elit sodales fermentum.
+									</div>
+									<div class="small-12 medium-4 columns">
+										Picture of testimonial person
+									</div>
+								</div>
+							</li>
 
-						<h2>Header H2 is Just the Right Size</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare hendrerit ipsum, finibus aliquam tortor faucibus et. Etiam vitae iaculis quam. Nulla ut ullamcorper lorem, facilisis tempus metus. Cras maximus leo quis lacinia molestie. Praesent malesuada ligula vitae elit sodales fermentum.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare hendrerit ipsum, finibus aliquam tortor faucibus et. Etiam vitae iaculis quam. Nulla ut ullamcorper lorem, facilisis tempus metus. Cras maximus leo quis lacinia molestie. Praesent malesuada ligula vitae elit sodales fermentum.</p>
+							<li>
+					  			<div class="row">						
+									<div class="small-12 medium-8 columns">
+										<h2>Testimonial 2</h2>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare hendrerit ipsum, finibus aliquam tortor faucibus et. Etiam vitae iaculis quam. Nulla ut ullamcorper lorem, facilisis tempus metus. Cras maximus leo quis lacinia molestie. Praesent malesuada ligula vitae elit sodales fermentum.
+									</div>
+									<div class="small-12 medium-4 columns">
+										Picture of testimonial person
+									</div>
+								</div>
+							</li>
 
-						<h3>Header H3 is Less Likely to be Used but is Still Cute.</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare hendrerit ipsum, finibus aliquam tortor faucibus et. Etiam vitae iaculis quam. Nulla ut ullamcorper lorem, facilisis tempus metus. Cras maximus leo quis lacinia molestie. Praesent malesuada ligula vitae elit sodales fermentum.</p>
-
-						<ul>
-							<li>This is a test list</li>
-							<li>Lists have to look good too</li>
-							<li>Lists don't get used much but are super duper important</li>
 						</ul>
-
-						<h4>Does Anyone Ever Use H4?</h4>
-						<pL>orem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare hendrerit ipsum, finibus aliquam tortor faucibus et. Etiam vitae iaculis quam. Nulla ut ullamcorper lorem, facilisis tempus metus. Cras maximus leo quis lacinia molestie. Praesent malesuada ligula vitae elit sodales fermentum.</p>
-						<ol>
-							<li>Ordered Lists Should look a lot like Unordered Lists</li>
-							<li>Ordered LIsts don't get used too often though</li>
-							<li>I need a third item so here I am</li>
-						</ol>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare hendrerit ipsum, finibus aliquam tortor faucibus et. Etiam vitae iaculis quam. Nulla ut ullamcorper lorem, facilisis tempus metus. Cras maximus leo quis lacinia molestie. Praesent malesuada ligula vitae elit sodales fermentum.</p>
-
-						<h5>No One Uses H5 But I am Styling it Anyway</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare hendrerit ipsum, finibus aliquam tortor faucibus et. Etiam vitae iaculis quam. Nulla ut ullamcorper lorem, facilisis tempus metus. Cras maximus leo quis lacinia molestie. Praesent malesuada ligula vitae elit sodales fermentum.</p>
-						
-						<table>
-							<caption>This is the Table Caption</caption>
-							<thead>
-								<tr>
-									<th>Col 1 Header</th>
-									<th>Col 2 header</th>
-									<th>Col 3 Header</th>
-								</tr>
-							</thead>
-							<tr>
-								<td>Cell 1</td>
-								<td>Cell 3</td>
-								<td>Cell 3</td>
-							</tr>
-
-							<tr>
-								<td>Cell 4</td>
-								<td>Cell 5</td>
-								<td>Cell 6</td>
-							</tr>
-
-							<tr>
-								<td>Cell 7</td>
-								<td>Cell 8</td>
-								<td>Cell 9</td>
-							</tr>
-						</table>
-
-						<table class="center zebra">
-							<caption>This is the Table Caption</caption>
-							<thead>
-								<tr>
-									<th>Col 1 Header</th>
-									<th>Col 2 header</th>
-									<th>Col 3 Header</th>
-								</tr>
-							</thead>
-							<tr>
-								<td>Cell 1</td>
-								<td>Cell 3</td>
-								<td>Cell 3</td>
-							</tr>
-
-							<tr>
-								<td>Cell 4</td>
-								<td>Cell 5</td>
-								<td>Cell 6</td>
-							</tr>
-
-							<tr>
-								<td>Cell 7</td>
-								<td>Cell 8</td>
-								<td>Cell 9</td>
-							</tr>
-						</table>
-
-						<h6>I have Never Used H6. Ever.</h6>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare hendrerit ipsum, finibus aliquam tortor faucibus et. Etiam vitae iaculis quam. Nulla ut ullamcorper lorem, facilisis tempus metus. Cras maximus leo quis lacinia molestie. Praesent malesuada ligula vitae elit sodales fermentum.</p>
-					</div>
-
-					<div class="small-12 medium-expand columns">
-						<h2>Testimonial</h2>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare hendrerit ipsum, finibus aliquam tortor faucibus et. Etiam vitae iaculis quam. Nulla ut ullamcorper lorem, facilisis tempus metus. Cras maximus leo quis lacinia molestie. Praesent malesuada ligula vitae elit sodales fermentum.
-					</div>
-					<div class="small-12 medium-expand columns">
-						Picture of testimonial person
 					</div>
 				</div>
 			</div>
 
-			<div class="section programs-wrap" style="background: gray">
+
+
+			
+					
+			
+
+
+			<div class="section programs-wrap">
 				<div class="row">
 					<h2 class="small-12 columns">Programs</h2>
-					<div class="small-12 medium-expand columns">
-						Program Information Goes here.
+
+					<div class="small-12 columns">
+						<p class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare hendrerit ipsum, finibus aliquam tortor faucibus et. Etiam vitae iaculis quam. Nulla ut ullamcorper lorem, facilisis tempus metus. Cras maximus leo quis lacinia molestie. Praesent malesuada ligula vitae elit sodales fermentum.</p>
 					</div>
+
 					<div class="small-12 medium-expand columns">
-						Program Information Goes here.
+						<div class="program-wrap">
+							<img src="<?php echo get_stylesheet_directory_uri() ?>/images/icon-stretch.png" alt="Program Name" title="Program Name">
+							<h3>Program Name</h3>
+							<a href="#" class="button center white">Learn More >></a>
+						</div>
 					</div>
+					
 					<div class="small-12 medium-expand columns">
-						Program Information Goes here.
+						<div class="program-wrap">
+							<img src="<?php echo get_stylesheet_directory_uri() ?>/images/icon-stretch.png" alt="Program Name" title="Program Name">
+							<h3>Program Name</h3>
+							<a href="#" class="button center white">Learn More >></a>
+						</div>
 					</div>
+
 					<div class="small-12 medium-expand columns">
-						Program Information Goes here.
+						<div class="program-wrap">
+							<img src="<?php echo get_stylesheet_directory_uri() ?>/images/icon-stretch.png" alt="Program Name" title="Program Name">
+							<h3>Program Name</h3>
+							<a href="#" class="button center white">Learn More >></a>
+						</div>
+					</div>
+
+					<div class="small-12 medium-expand columns">
+						<div class="program-wrap">
+							<img src="<?php echo get_stylesheet_directory_uri() ?>/images/icon-stretch.png" alt="Program Name" title="Program Name">
+							<h3>Program Name</h3>
+							<a href="#" class="button center white">Learn More >></a>
+						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="section articles-wrap" style="background: purple">
+			<div class="section articles-wrap">
 				<div class="row">
 					<h2 class="small-12 columns">Articles</h2>
-					<div class="small-12 medium-expand columns">
-						Program Information Goes here.
-					</div>
-					<div class="small-12 medium-expand columns">
-						Program Information Goes here.
-					</div>
-					<div class="small-12 medium-expand columns">
-						Program Information Goes here.
-					</div>
-				</div>
-			</div>
+					
+
+
+					<div id="flex-posts" class="small-12 columns">
+					  	<ul class="slides">
+
+
+							<?php // Display blog posts on any page @ https://m0n.co/l
+							$temp = $wp_query; $wp_query= null;
+							$wp_query = new WP_Query(); $wp_query->query('posts_per_page=9' . '&paged='.$paged);
+							while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
+							
+							<li>
+								<div class="small-12 medium-expand columns">
+									<?php the_post_thumbnail(); ?>
+									<h2><a href="<?php the_permalink(); ?>" title="Read more"><?php the_title(); ?></a></h2>
+									<?php the_excerpt(); ?>
+								</div>
+							</li>
+
+							<?php endwhile; ?>
+
+							<?php wp_reset_postdata(); ?>
+
+						</ul>
+					</div><!-- /flexposts -->
+				</div><!-- /row -->
+			</div><!-- /section /articles-wrap -->
 			
 
 
