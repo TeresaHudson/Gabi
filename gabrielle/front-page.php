@@ -18,47 +18,95 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 
-			<div class="section main-img-wrap">
-				<div class="row">
-					<div class="small-12 medium-expand columns">
 
-					</div>
-					<div class="small-12 medium-expand columns">
-						<h2>A <strong>Holistic</strong> Approach to Personal <strong>Training</strong></h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare hendrerit ipsum, finibus aliquam tortor faucibus et. Etiam vitae iaculis quam. Nulla ut ullamcorper lorem, facilisis tempus metus. Cras maximus leo quis lacinia molestie. Praesent malesuada ligula vitae elit sodales fermentum.</p>
-						<a><div class="button">Call to action</div></a>
-					</div>
-				</div>
+			<div id="flex-main-header">
+				<ul class="slides">
+		
+				<?php
+
+				// check if the repeater field has rows of data
+				if( have_rows('main_homepage_slides' , 'options') ):
+
+				 	// loop through the rows of data
+				    while ( have_rows('main_homepage_slides' , 'options') ) : the_row(); ?>
+
+	       				<li>
+							<div class="section main-img-wrap">
+								<div class="row">
+									<div class="small-12 medium-expand columns">
+
+									</div>
+									<div class="small-12 medium-expand columns">
+										<h2><?php the_sub_field('slide_title'); ?></h2>
+										<p><?php the_sub_field('slide_description'); ?></p>
+										<a href="<?php the_sub_field('slide_call_to_action_url'); ?>"><div class="button"><?php the_sub_field('slide_call_to_action_text'); ?></div></a>
+									</div>
+								</div>
+							</div>
+						</li>
+
+				<?php    endwhile;
+				    echo 'found rows';
+				else :
+				    // no rows found
+				    echo 'no rows found';
+				endif;
+				?>
+				</ul>
 			</div>
+
+
+
+
+
+			<div id="flex-main-header">
+				<ul class="slides">
+		
+				
+				</ul>
+			</div>
+
+
+
 
 			<div class="section testimonials-wrap">
 				<div class="slider">
 					<div id="flex-testimonials">
 					  	<ul class="slides">
 
-					  		<li>
+
+
+
+
+					  	<?php
+
+				// check if the repeater field has rows of data
+				if( have_rows('testimonials' , 'options') ):
+
+				 	// loop through the rows of data
+				    while ( have_rows('testimonials' , 'options') ) : the_row(); ?>
+
+	       				<li>
 					  			<div class="row">						
 									<div class="small-12 medium-8 columns">
-										<h2>Testimonial 1</h2>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare hendrerit ipsum, finibus aliquam tortor faucibus et. Etiam vitae iaculis quam. Nulla ut ullamcorper lorem, facilisis tempus metus. Cras maximus leo quis lacinia molestie. Praesent malesuada ligula vitae elit sodales fermentum.
+										<h2><?php the_sub_field('testimonial-name'); ?></h2>
+										<p><?php the_sub_field('testimonial'); ?></p>
 									</div>
 									<div class="small-12 medium-4 columns">
-										Picture of testimonial person
+										<img src="<?php the_sub_field('testimonial_photo'); ?>" alt="" title="">
 									</div>
 								</div>
 							</li>
 
-							<li>
-					  			<div class="row">						
-									<div class="small-12 medium-8 columns">
-										<h2>Testimonial 2</h2>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare hendrerit ipsum, finibus aliquam tortor faucibus et. Etiam vitae iaculis quam. Nulla ut ullamcorper lorem, facilisis tempus metus. Cras maximus leo quis lacinia molestie. Praesent malesuada ligula vitae elit sodales fermentum.
-									</div>
-									<div class="small-12 medium-4 columns">
-										Picture of testimonial person
-									</div>
-								</div>
-							</li>
+				<?php    endwhile;
+				    echo 'found rows';
+				else :
+				    // no rows found
+				    echo 'no rows found';
+				endif;
+				?>
+
+			
 
 						</ul>
 					</div>
@@ -80,42 +128,41 @@ get_header(); ?>
 						<p class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare hendrerit ipsum, finibus aliquam tortor faucibus et. Etiam vitae iaculis quam. Nulla ut ullamcorper lorem, facilisis tempus metus. Cras maximus leo quis lacinia molestie. Praesent malesuada ligula vitae elit sodales fermentum.</p>
 					</div>
 
-					<div class="small-12 medium-expand columns">
-						<div class="program-wrap">
-							<img src="<?php echo get_stylesheet_directory_uri() ?>/images/icon-stretch.png" alt="Program Name" title="Program Name">
-							<h3>Program Name</h3>
-							<a href="#" class="button center white">Learn More >></a>
-						</div>
-					</div>
+
+
+
+<?php
+
+				// check if the repeater field has rows of data
+				if( have_rows('programs' , 'options') ): 
+
+				 	// loop through the rows of data
+				    while ( have_rows('programs' , 'options') ) : the_row(); ?>
 					
-					<div class="small-12 medium-expand columns">
-						<div class="program-wrap">
-							<img src="<?php echo get_stylesheet_directory_uri() ?>/images/icon-stretch.png" alt="Program Name" title="Program Name">
-							<h3>Program Name</h3>
-							<a href="#" class="button center white">Learn More >></a>
-						</div>
-					</div>
 
 					<div class="small-12 medium-expand columns">
 						<div class="program-wrap">
 							<img src="<?php echo get_stylesheet_directory_uri() ?>/images/icon-stretch.png" alt="Program Name" title="Program Name">
-							<h3>Program Name</h3>
-							<a href="#" class="button center white">Learn More >></a>
+							<h3><?php the_sub_field('program_name'); ?></h3>
+							<a href="<?php the_sub_field('program_url'); ?>" class="button center white">Learn More >></a>
 						</div>
 					</div>
 
-					<div class="small-12 medium-expand columns">
-						<div class="program-wrap">
-							<img src="<?php echo get_stylesheet_directory_uri() ?>/images/icon-stretch.png" alt="Program Name" title="Program Name">
-							<h3>Program Name</h3>
-							<a href="#" class="button center white">Learn More >></a>
-						</div>
-					</div>
+
+				<?php    endwhile;
+				    echo 'found rows';
+				else :
+				    // no rows found
+				    echo 'no rows found';
+				endif;
+				?>
+
+
 				</div>
 			</div>
 
 			<div class="section articles-wrap">
-				<div class="row">
+				<!-- <div class="row"> --><div>
 					<h2 class="small-12 columns">Articles</h2>
 					
 
@@ -123,21 +170,44 @@ get_header(); ?>
 					<div id="flex-posts" class="small-12 columns">
 					  	<ul class="slides">
 
-
+							
 							<?php // Display blog posts on any page @ https://m0n.co/l
 							$temp = $wp_query; $wp_query= null;
 							$wp_query = new WP_Query(); $wp_query->query('posts_per_page=9' . '&paged='.$paged);
+							$num_slide = 1;
 							while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
+
+							<?php if ($num_slide % 3 == 1) : ?>
+								<li><div class="recent-posts-wrapper">
+   							<?php endif; ?>
 							
-							<li>
-								<div class="small-12 medium-expand columns">
-									<?php the_post_thumbnail(); ?>
+								<div class="recent-post">
+									<?php // the_post_thumbnail(); ?>
 									<h2><a href="<?php the_permalink(); ?>" title="Read more"><?php the_title(); ?></a></h2>
 									<?php the_excerpt(); ?>
 								</div>
-							</li>
 
-							<?php endwhile; ?>
+							<?php if ($num_slide % 3 == 0) : ?>
+								<div style="clear:both;"></div></div></li>
+   							<?php endif; ?>
+							
+
+							<?php 
+
+							// if ( $num_slides % 3 == 0 ) {
+							// 	echo '</li><div style="clear:both"></div><li>';
+							// }
+
+
+
+							$num_slide++;
+
+
+							endwhile; ?>
+
+							<?php if ( ($num_slide % 3 == 2) || ($num_slide % 3 == 0 ) ) : ?>
+								<div style="clear:both;"></div></div></li>
+   							<?php endif; ?>
 
 							<?php wp_reset_postdata(); ?>
 

@@ -180,7 +180,10 @@ function print_my_script() {
 	  <script type='text/javascript'>
 	    $(window).load(function(){
 
-
+				$('#flex-main-header').flexslider({
+				    animation: 'slide',
+					namespace: 'flex-main-header'
+				});
 
 			 	$('#flex-testimonials').flexslider({
 				    animation: 'slide',
@@ -192,6 +195,8 @@ function print_my_script() {
 				    animation: 'slide',
 					namespace: 'flex-posts'
 				});
+
+				
 
 	    });
 	  </script>";

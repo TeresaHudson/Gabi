@@ -3299,6 +3299,18 @@ html[xmlns] .flexslider .slides {
   text-align: center;
 }
 
+/*--------------------------------------------------------------
+# RECENT POSTS
+--------------------------------------------------------------*/
+.recent-post {
+  max-width: 33%;
+  float: left;
+}
+
+a:visited {
+  color: red;
+}
+
 .site-branding {
   padding: 15px 0;
 }
